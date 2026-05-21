@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { View ,Text,Image ,Pressable } from 'react-native'
+import { Text,Image ,Pressable, ScrollView } from 'react-native'
 
 import { router} from "expo-router";
 
@@ -9,7 +9,7 @@ import { router} from "expo-router";
 export default function Header() {
   
   return (
-   <View>
+   <ScrollView>
  <Image 
     source={require('../assets/zalij.png')} 
     style={{ width: 100, height: 100 ,}} 
@@ -27,10 +27,10 @@ export default function Header() {
         <Text style={{color:'white' , fontSize:20 ,textAlign:'center' ,padding:20, }}>L’Art de la table marocaine</Text>
         <Text style={{ color:'white',width:220,height:100,elevation:10 ,textAlign:'center',marginLeft:75 ,backgroundColor:'#D3BA58' ,borderRadius:20 ,shadowColor: "#000",  shadowOpacity: 0.1,shadowRadius: 10,}}>Installez-vous autour d une table marocaine authentique aux parfums de l Atlas. Ici, la richesse de nos traditions se savoure avec générosité à chaque bouchée.</Text>
         
- <Pressable onPress={() => router.push('/menu') }><Text style={{color:'white', backgroundColor:'orange',width:120,borderRadius:20,marginLeft:120,padding:5,margin:10}}>decouvrir le Menu</Text></Pressable>
+ <Pressable onPress={() => router.push('/menu') }><Text style={{color:'white', backgroundColor:'orange',width:120,borderRadius:20,marginLeft:120,padding:5,margin:10,}}>decouvrir le Menu</Text></Pressable>
 
 
-   </View>
+   </ScrollView>
   )
 }
 
