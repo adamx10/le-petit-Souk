@@ -1,5 +1,6 @@
 import {  View } from "react-native";
-import  Header from "../assets/components/header";
+import  Header from "../components/header";
+import Menu from "../components/menu"
 
 
 export default function Index() {
@@ -9,6 +10,7 @@ export default function Index() {
 
     <View style={{ backgroundColor:"#DFC560", flex :1,}}>
 <Header />
+
   
     </View>
   );
