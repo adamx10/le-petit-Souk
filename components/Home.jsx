@@ -1,24 +1,24 @@
 
-import React from 'react'
-import { Text,Image ,Pressable, ScrollView } from 'react-native'
+import React from 'react';
+import { Image, Pressable, ScrollView, Text } from 'react-native';
 
-import { router} from "expo-router";
+import { router } from "expo-router";
 
 
 
-export default function Header() {
-  
+ export default function Header() {
+
   return (
    <ScrollView>
  <Image 
     source={require('../assets/zalij.png')} 
     style={{ width: 100, height: 100 ,}} 
   />
-    <Text style={{color:"white",textAlign:'center' ,fontSize:25,justifyContent:'center',fontFamily: 'Georgia',marginTop:-50, }}>Le petit Souk</Text>
+    <Text style={{color:"white",textAlign:'center' ,fontSize:25,justifyContent:'center',fontFamily: 'Georgia',marginTop:-50, }}>Le petit Souk</Text>   
     <Image source={
         require('../assets/logo.png')}
         style={{width:150,height:100 , marginLeft:115}}
-        ></Image>
+        ></Image>   
         
             <Image source={
         require('../assets/art-table.png')}

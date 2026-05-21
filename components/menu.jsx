@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Image, ScrollView, Text, View } from 'react-native';
-import Menue from '../data/data'
+import Menue from '../data/data';
 
 
 
@@ -21,10 +21,10 @@ export default function Menu() {
         Bienvenue à Le petit Souk
       </Text>
       <View>
-        {Menue.map((Menu) => (
-        <Text key={Menu.id}>{Menu.name}{Menu.description}{Menu.prix}</Text>
+      
+                                                                                                                                                                                                   
         
-     )) }
+    
      </View>
 
 
