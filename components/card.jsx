@@ -22,9 +22,9 @@ export default function MenuScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#DFC560', padding: 15 },
   row: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#D3BA58', padding: 10, marginBottom: 10, borderRadius: 10 ,elevation:10},
-  img: { width: 60, height: 60, borderRadius: 8 },
+  image: { width: 60, height: 60, borderRadius: 8 },
   info: { flex: 1, marginLeft: 10 },
   name: { fontSize: 15, fontWeight: 'bold', color: '#3b2f2f' },
-  ing: { fontSize: 12, color: '#6b7280', marginTop: 2 },
-  price: { fontSize: 14, fontWeight: 'bold', color: '#d4a574', backgroundColor: '#cf1313', paddingHorizontal: 10, paddingVertical: 5, borderRadius: 6 },
+  description: { fontSize: 12, color: '#6b7280', marginTop: 2 },
+  prix: { fontSize: 14, fontWeight: 'bold', color: '#d48774', backgroundColor: '#cf1313', paddingHorizontal: 10, paddingVertical: 5, borderRadius: 6 },
 });
